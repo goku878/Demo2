@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	      <listeners>
+		  <listener class-name ="Testproject.listner"/>
+		  </listeners>
+  <test thread-count="5" name="Test">
+	 
+    <classes>
+		
+		
+		
+     <class name="Testproject.Test4"/> 
+     <class name="Testproject.Test3"/>       
+  <!--    <class name="practices052024.Demo"/>     -->
+  <!--    <class name="kp2.Myjobproject.Test2"/>    -->
+      <class name="Testproject.Test2"/>          
+   <!--   <class name="practices052024.Demo1"/>      -->
+     <class name="Testproject.Test1"/>            
+   <!--   <class name="practices052024.Calender"/>         -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
